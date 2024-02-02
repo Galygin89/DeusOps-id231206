@@ -1,0 +1,16 @@
+#!/bin/bash
+
+		###  Обновляем и устанавливаем Vagrant и Virtualbox  ####
+sudo apt update && sudo apt install -y vagrant && sudo apt install -y virtualbox 
+
+		###  Устанавливаем Vagrant plugin  ###
+#sudo vagrant plugin install vagrant-libvirt
+
+cd $HOME
+rm -rf Vagrant-Test
+mkdir Vagrant-Test
+cd Vagrant-Test
+vagrant init
+
+
+
