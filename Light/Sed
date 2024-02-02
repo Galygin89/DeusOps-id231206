@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+		###  Заменяем параметры Vagrantfile  ###
+
+sed -i 's/base/ubuntu\/focal64/wg' Vagrantfile
+grep "config.vm.box" Vagrantfile
