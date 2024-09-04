@@ -1,7 +1,7 @@
 #!/usr/bin/env
-
+set -e
 		###  Установка Vagrant и Virtualbox и Extension Pack  ####
-sudo apt install -y vagrant; sudo apt install -y virtualbox; sudo apt install -y virtualbox-ext-pack 
+sudo apt install -y vagrant virtualbox virtualbox-ext-pack 
 		###  Инициализация Vagrant  ###
 vagrant init
 		###  Заменяем Vagrantfile из git репозитория  ###
