@@ -4,14 +4,17 @@
 #1 Обновляем индекс пакетов и устанавливаем Git
 sudo apt update && sudo apt install git
 
-#2 Клонировать проект с https://github.com/Galygin89/DeusOps-id231206.git
+#2 Копируем проект с https://github.com/Galygin89/DeusOps-id231206.git
 git clone https://github.com/Galygin89/DeusOps-id231206.git
 
-#3 Перейти в каталог ~/DeusOps-id231206/Light
+#3 Переходим в каталог ~/DeusOps-id231206/Light
 cd ~/DeusOps-id231206/Light
 
-#4 Запустить скрипт установки Vagrant и Virtualbox, install.sh
+#4 Запускаем скрипт установки Vagrant и Virtualbox, install.sh
 sudo ./install.sh
+
+#5 Заменяем или редактируем Vagrantfile
+sed || mv
 
 
 
